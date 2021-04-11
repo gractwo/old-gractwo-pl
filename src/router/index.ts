@@ -8,18 +8,6 @@ const routes: Array<RouteRecordRaw> = [
     component: Home
   },
   {
-    path: '/o-nas',
-    name: 'o-nas',
-    // redirect: to => {
-      // window.location.href = 'http://google.com'
-      // return '/redirecting' // not important since redirecting
-    // }
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  },
-  {
     path: '/discord',
     name: 'Discord',
     alias: ['/dsc', '/dc'],
@@ -35,6 +23,14 @@ const routes: Array<RouteRecordRaw> = [
     redirect: () => {
       window.location.replace('https://facebook.com/groups/gractwo')
       return '/facebook'
+    }
+  },
+  {
+    path: '/j4mesen',
+    name: 'j4mesen',
+    redirect: () => {
+      window.location.replace('https://manczak.net')
+      return '/j4mesen'
     }
   }
 ]
