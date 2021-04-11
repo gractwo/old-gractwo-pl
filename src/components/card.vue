@@ -1,6 +1,6 @@
 <template>
   <router-link :to="link" class="card">
-    <img  alt="" :src="require(`../assets/${photo}`)">
+    <img  alt="" :src="require(`../assets/spis/${photo}`)">
     <div class="card-inner">
       <p class="name"> {{name}} </p>
       <p class="desc"> {{desc}} </p>

@@ -9,12 +9,44 @@
     </div>
     <div class="second">
       <h1>Spis Moderacji</h1>
-      <card
-        name="Jakub Mańczak"
-        photo="j4mesen.png"
-        desc="j4mesen | wannabe programista"
-        link="/j4mesen"
-      />
+      <div class="cardContainer">
+        <card
+          name="Jakub Mańczak"
+          photo="j4mesen.png"
+          desc="j4mesen | wannabe programista"
+          link="/j4mesen"
+        />
+        <card
+          name="Olek Kulka"
+          photo="olek.png"
+          desc="KuOlek | scooby doo stan"
+          link="/kuolek"
+        />
+        <card
+          name="Adam Cała"
+          photo="adam.png"
+          desc="BeElephant | dosłowny słoń"
+          link="/be-elephant"
+        />
+        <card
+          name="Jarek Kortals"
+          photo="jarooko.png"
+          desc="Jarooko | nadal tu jest?"
+          link="/jarooko"
+        />
+        <card
+          name="Jakub Mollin"
+          photo="mollin.png"
+          desc="Mollin | resident grinder"
+          link="/mollin"
+        />
+        <card
+          name="Franek Cała"
+          photo="franek.png"
+          desc="BavilGravlax | secret society blanket"
+          link="/bavil-gravlax"
+        />
+      </div>
     </div>
   </main>
 </template>
@@ -45,7 +77,12 @@ export default defineComponent({
       animation-duration: 2s
       z-index: -10
     .second
-      margin-top: 18rem
+      margin-top: 18rem 
+      .cardContainer
+        display: inline-flex
+        flex-wrap: wrap
+        margin-right: .1rem
+        
   @keyframes logovibe
     0%
       transform: rotate(5deg)

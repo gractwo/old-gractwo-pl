@@ -32,6 +32,46 @@ const routes: Array<RouteRecordRaw> = [
       window.location.replace('https://manczak.net')
       return '/j4mesen'
     }
+  },
+  {
+    path: '/kuolek',
+    name: 'kuolek',
+    redirect: () => {
+      window.location.replace('https://steamcommunity.com/profiles/76561198381997060')
+      return '/kuolek'
+    }
+  },
+  {
+    path: '/be-elephant',
+    name: 'beElephant',
+    redirect: () => {
+      window.location.replace('https://steamcommunity.com/profiles/76561198309722571')
+      return '/be-elephant'
+    }
+  },
+  {
+    path: '/jarooko',
+    name: 'jarooko',
+    redirect: () => {
+      window.location.replace('https://steamcommunity.com/id/jarooko')
+      return '/jarooko'
+    }
+  },
+  {
+    path: '/mollin',
+    name: 'mollin',
+    redirect: () => {
+      window.location.replace('https://steamcommunity.com/profiles/76561198264001711')
+      return '/mollin'
+    }
+  },
+  {
+    path: '/bavil-gravlax',
+    name: 'bavilGravlax',
+    redirect: () => {
+      window.location.replace('https://steamcommunity.com/profiles/76561198855251311')
+      return '/bavil-gravlax'
+    }
   }
 ]
 
