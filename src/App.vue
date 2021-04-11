@@ -10,7 +10,7 @@
     </router-link>
     <div>
       <router-link to="/">główna</router-link>
-      <router-link to="/about">o nas</router-link>
+      <router-link to="/o-nas">o nas</router-link>
       <router-link to="/discord">discord</router-link>
       <router-link to="/facebook">facebook</router-link>
     </div>
