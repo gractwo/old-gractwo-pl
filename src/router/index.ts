@@ -8,8 +8,8 @@ const routes: Array<RouteRecordRaw> = [
     component: Home
   },
   {
-    path: '/about',
-    name: 'About',
+    path: '/o-nas',
+    name: 'o-nas',
     // redirect: to => {
       // window.location.href = 'http://google.com'
       // return '/redirecting' // not important since redirecting
