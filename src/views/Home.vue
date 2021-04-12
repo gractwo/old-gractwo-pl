@@ -49,6 +49,28 @@
         />
       </div>
     </div>
+    <div class="third">
+      <h1>Geneza Gractwa</h1>
+      <p class="textblock">
+        Gractwo zostało założone w 2020 roku w odpowiedzi na rozłam PGTF i na
+        <router-link to="/">sytuację z PGTF</router-link> związaną. Serwer
+        discordowy PGTF pozostający pod kontrolą administracji Gractwa został
+        przeniesiony w stan przejściowy do czasu gdy decyzja o powstaniu Gractwa
+        została podjęta. Po tych wydarzeniach strona internetowa oraz grupa
+        facebookowa Gractwa zostały utworzone. Aktywność na grupie facebookowej
+        nigdy sie nie rozwinęła wystarczająco, by przekształcić sie w
+        pełnoprawną społeczność, ale serwer discord działa cały czas. Strona
+        internetowa służy głównie do uproszczenia linków - do Discorda i
+        Facebooka. <br />
+        <br />
+        Po co więc to piszę? ...Potrzebuję tekstu do zapełnienia strony. <br />
+        <br />
+        ~j4mesen
+      </p>
+    </div>
+    <div class="fourth">
+      <p>Gractwo 2021-2021.</p>
+    </div>
   </main>
 </template>
 
@@ -69,6 +91,8 @@
 <style lang="sass">
   main
     padding: 3rem 8rem
+    a
+      color: #fb636b
     .g
       position: absolute
       top: 0
@@ -83,6 +107,13 @@
         display: inline-flex
         flex-wrap: wrap
         margin-right: .1rem
+    .third
+      margin-top: 2rem
+    .fourth
+      margin-top: 4rem
+    .textblock
+      padding-right: 40%
+      text-align: justify
 
   @keyframes logovibe
     0%
@@ -99,4 +130,6 @@
         position: absolute
         top: 8.5%
         width: 184px
+      .textblock
+        padding-right: 2%
 </style>
