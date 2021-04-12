@@ -85,4 +85,9 @@
     &:hover
       background-color: var(--dark-bg3)
       border: 4px solid var(--dark-bg2)
+
+  @media only screen and (max-width: 872px)
+    .gractwoRoot
+      h1
+        display: none
 </style>

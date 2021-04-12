@@ -3,9 +3,10 @@
     <div class="first">
       <h1>Witajcie w Gractwie!</h1>
       <p>
-        Jesteśmy społecznością - grupą ludzi - których kręcą gry. Proste, nie? <br>
+        Jesteśmy społecznością - grupą ludzi - których kręcą gry. Proste, nie?
+        <br />
       </p>
-      <gractwosvg class="g"/>
+      <gractwosvg class="g" />
     </div>
     <div class="second">
       <h1>Spis Moderacji</h1>
@@ -52,17 +53,17 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import gractwosvg from '@/components/gractwosvg.vue'; // @ is an alias to /src
-import card from '@/components/card.vue';
+  import { defineComponent } from 'vue';
+  import gractwosvg from '@/components/gractwosvg.vue'; // @ is an alias to /src
+  import card from '@/components/card.vue';
 
-export default defineComponent({
-  name: 'Home',
-  components: {
-    gractwosvg,
-    card
-  },
-});
+  export default defineComponent({
+    name: 'Home',
+    components: {
+      gractwosvg,
+      card,
+    },
+  });
 </script>
 
 <style lang="sass">
@@ -77,12 +78,12 @@ export default defineComponent({
       animation-duration: 2s
       z-index: -10
     .second
-      margin-top: 18rem 
+      margin-top: 18rem
       .cardContainer
         display: inline-flex
         flex-wrap: wrap
         margin-right: .1rem
-        
+
   @keyframes logovibe
     0%
       transform: rotate(5deg)
@@ -90,4 +91,12 @@ export default defineComponent({
       transform: rotate(-9deg) scale(0.9)
     100%
       transform: rotate(5deg)
+
+  @media only screen and (max-width: 872px)
+    main
+      padding: 3rem 1rem
+      .g
+        position: absolute
+        top: 8.5%
+        width: 184px
 </style>

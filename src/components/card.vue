@@ -48,4 +48,11 @@
     &:focus,&:hover
       background-color: var(--dark-bg3)
       transform: scale(1.05)
+
+  @media only screen and (max-width: 872px)
+    .card
+      font-size: .8em
+      width: 18rem
+      img
+        width: 64px
 </style>
