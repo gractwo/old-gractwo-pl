@@ -53,13 +53,13 @@
       <h1>Geneza Gractwa</h1>
       <p class="textblock">
         Gractwo zostało założone w 2020 roku w odpowiedzi na rozłam PGTF i na
-        <router-link to="/">sytuację z PGTF</router-link> związaną. Serwer
-        discordowy PGTF pozostający pod kontrolą administracji Gractwa został
-        przeniesiony w stan przejściowy do czasu gdy decyzja o powstaniu Gractwa
-        została podjęta. Po tych wydarzeniach strona internetowa oraz grupa
-        facebookowa Gractwa zostały utworzone. Aktywność na grupie facebookowej
-        nigdy sie nie rozwinęła wystarczająco, by przekształcić sie w
-        pełnoprawną społeczność, ale serwer discord działa cały czas. Strona
+        <a href="https://youtu.be/zjedLeVGcfE">sytuację z PGTF</a> związaną.
+        Serwer discordowy PGTF pozostający pod kontrolą administracji Gractwa
+        został przeniesiony w stan przejściowy do czasu gdy decyzja o powstaniu
+        Gractwa została podjęta. Po tych wydarzeniach strona internetowa oraz
+        grupa facebookowa Gractwa zostały utworzone. Aktywność na grupie
+        facebookowej nigdy sie nie rozwinęła wystarczająco, by przekształcić sie
+        w pełnoprawną społeczność, ale serwer discord działa cały czas. Strona
         internetowa służy głównie do uproszczenia linków - do Discorda i
         Facebooka. <br />
         <br />
