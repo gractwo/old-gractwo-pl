@@ -69,7 +69,7 @@
       </p>
     </div>
     <div class="fourth">
-      <p>Gractwo 2021-2021.</p>
+      <p>Gractwo 2020-2021.</p>
     </div>
   </main>
 </template>
