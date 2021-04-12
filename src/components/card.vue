@@ -33,6 +33,7 @@ export default defineComponent({
     user-select: none
     color: inherit
     text-decoration: inherit
+    transition-duration: 100ms
     img
       width: 84px
       border-radius: 8px 0 0 8px
@@ -42,4 +43,9 @@ export default defineComponent({
       .name
         font-size: 1.7em
         letter-spacing: 0.1em
+      .meta
+        opacity: 0.5 
+    &:focus,&:hover
+      background-color: var(--dark-bg3)
+      transform: scale(1.05)
 </style>

@@ -22,10 +22,11 @@
 
 <style lang="sass">
   @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap')
+  @import url('https://fonts.googleapis.com/css2?family=Material+Icons&display=swap')
   :root
     --dark-bg: #1a1a1a
     --dark-bg2: #212121
-    --dark-bg3: #414141
+    --dark-bg3: #313131
     --light: #c0c0c0
   *
     margin: 0
