@@ -1,25 +1,25 @@
 <template>
-  <router-link :to="link" class="card">
-    <img  alt="" :src="require(`../assets/spis/${photo}`)">
+  <router-link :to="link" class="card" target="_blank">
+    <img alt="" :src="require(`../assets/spis/${photo}`)" />
     <div class="card-inner">
-      <p class="name"> {{name}} </p>
-      <p class="desc"> {{desc}} </p>
+      <p class="name">{{ name }}</p>
+      <p class="desc">{{ desc }}</p>
     </div>
   </router-link>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+  import { defineComponent } from 'vue';
 
-export default defineComponent({
-  name: 'card',
-  props: {
-    name: String,
-    photo: String,
-    desc: String,
-    link: String
-  }
-});
+  export default defineComponent({
+    name: 'card',
+    props: {
+      name: String,
+      photo: String,
+      desc: String,
+      link: String,
+    },
+  });
 </script>
 
 <style lang="sass" scoped>
@@ -44,7 +44,7 @@ export default defineComponent({
         font-size: 1.7em
         letter-spacing: 0.1em
       .meta
-        opacity: 0.5 
+        opacity: 0.5
     &:focus,&:hover
       background-color: var(--dark-bg3)
       transform: scale(1.05)

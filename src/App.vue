@@ -5,19 +5,22 @@
   </div> -->
   <nav>
     <router-link to="/" class="gractwoRoot">
-      <img alt="Vue logo" src="./assets/gractwo-smol.png" style="height: 50px">
+      <img
+        alt="Vue logo"
+        src="./assets/gractwo-smol.png"
+        style="height: 50px"
+      />
       <h1>Gractwo</h1>
     </router-link>
     <div>
       <!-- <router-link to="/">główna</router-link> -->
       <!-- <router-link to="/o-nas">o nas</router-link> -->
-      <router-link to="/discord">discord</router-link>
-      <router-link to="/facebook">facebook</router-link>
+      <router-link to="/discord" target="_blank">discord</router-link>
+      <router-link to="/facebook" target="_blank">facebook</router-link>
     </div>
   </nav>
-  <main>
-  </main>
-  <router-view/>
+  <main></main>
+  <router-view />
 </template>
 
 <style lang="sass">
