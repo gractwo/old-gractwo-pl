@@ -71,7 +71,7 @@
     <div class="fourth">
       <p>
         Gractwo 2020-2021.
-        <router-link to="/git">GitHub</router-link>
+        <router-link to="/git" target="_blank">GitHub</router-link>
       </p>
     </div>
   </main>
