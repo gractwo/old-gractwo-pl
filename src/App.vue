@@ -24,7 +24,7 @@
 </template>
 
 <style lang="scss">
-	@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap');
 	@import url('https://fonts.googleapis.com/css2?family=Material+Icons&display=swap');
 	:root {
 		--dark-bg: #1a1a1a;
