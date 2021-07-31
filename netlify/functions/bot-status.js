@@ -16,7 +16,7 @@ exports.handler = async function(event, context) {
 		.catch((error) => {
 			return {
 				statusCode: 500,
-				body: JSON.stringify('discord api shat itself brb'),
+				body: 'discord api shat itself brb',
 			};
 		});
 };
