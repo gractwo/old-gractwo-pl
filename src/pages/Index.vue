@@ -94,7 +94,7 @@
 					photo="05"
 					description="Pełnoprawny członek tajemnego społeczeństwa kocyków."
 				/>
-				<Card name="... ?" />
+				<!-- <Card name="... ?" /> -->
 			</div>
 		</section>
 		<section>
