@@ -19,6 +19,14 @@
   from = "/fb"
   to = "https://facebook.com/groups/gractwo"
 
+[[redirects]]
+  from = "/github"
+  to = "https://github.com/gractwo"
+
+[[redirects]]
+  from = "/gh"
+  to = "https://github.com/gractwo"
+
 # 'funny' REDIRECTS
 [[redirects]]
   from = "/pgtf-theme"

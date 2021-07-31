@@ -50,9 +50,8 @@
 		<section>
 			<h3>Gractwo 2020-2021</h3>
 			<p>
-				Strona napisana i hostowana przez <a href="#jamesen">jamesena</a>. Kod
-				dostępny na
-				<a href="https://github.com/Gractwo" target="_blank">GitHubie</a>.
+				Kod dostępny na
+				<a href="/github" target="_blank">GitHubie</a>.
 			</p>
 		</section>
 	</main>
