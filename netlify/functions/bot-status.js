@@ -10,13 +10,13 @@ exports.handler = async function(event, context) {
 		.then((response) => {
 			return {
 				statusCode: 200,
-				body: response.data,
+				body: JSON.stringify(response.data),
 			};
 		})
 		.catch((error) => {
 			return {
 				statusCode: 500,
-				body: 'discord api shat itself brb',
+				body: JSON.stringify({ errorMsg: 'discord api shat itself brb' }),
 			};
 		});
 };
