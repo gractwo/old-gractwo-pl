@@ -22,7 +22,12 @@
 					</p>
 				</div>
 				<div class="cardInnerInfoButtons">
-					<g-link :to="`${external}`" v-if="external" target="_blank">
+					<g-link
+						:to="`${external}`"
+						v-if="external"
+						v-tooltip="`${externalTooltip}`"
+						target="_blank"
+					>
 						<i class="fas fa-link" />
 					</g-link>
 					<g-link :to="`${steam}`" v-if="steam" target="_blank">
@@ -30,6 +35,9 @@
 					</g-link>
 					<g-link :to="`${github}`" v-if="github" target="_blank">
 						<i class="fab fa-github"></i>
+					</g-link>
+					<g-link :to="`${twitter}`" v-if="twitter" target="_blank">
+						<i class="fab fa-twitter"></i>
 					</g-link>
 					<g-link :to="`${facebook}`" v-if="facebook" target="_blank">
 						<i class="fab fa-facebook"></i>
@@ -58,8 +66,10 @@ export default {
 		photo: String,
 		description: String,
 		external: String,
+		externalTooltip: String,
 		steam: String,
 		github: String,
+		twitter: String,
 		facebook: String,
 		discord: String,
 	},
