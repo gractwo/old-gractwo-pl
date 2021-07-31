@@ -29,7 +29,7 @@ export default {
 	name: 'BotCard',
 	data() {
 		return {
-			status: {},
+			status: null,
 		};
 	},
 	async mounted() {
