@@ -38,16 +38,22 @@
 			</p>
 		</section>
 		<section>
-			<h2>Spis Moderacji</h2>
+			<h2>Spis Moderacji + Bot</h2>
 			<p>
 				Ludzie stojący za Gractwem - in progress!
 			</p>
 			<div class="cards">
-				<Card id="jamesen" name="Jakub Mańczak" photo="~/assets/cards/.png" />
-				<Card id="kuolek" name="Olek Kulka" />
-				<Card id="mollin" name="Jakub Mollin" />
-				<Card id="adam" name="Adam Cała" />
-				<Card id="franek" name="Franek Cała" />
+				<Card id="jamesen" name="Jakub Mańczak" nickname="j4mesen" photo="-" />
+				<Card id="kuolek" name="Olek Kulka" nickname="KuOlek" photo="-" />
+				<Card id="adam" name="Adam Cała" nickname="Be Elephant" photo="-" />
+				<Card id="mollin" name="Jakub Mollin" nickname="Mollin" photo="-" />
+				<Card
+					id="franek"
+					name="Franek Cała"
+					nickname="Bavil Gravlax"
+					photo="-"
+				/>
+				<Card name="... ?" />
 			</div>
 		</section>
 		<section>
