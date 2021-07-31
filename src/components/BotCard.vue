@@ -1,7 +1,7 @@
 <template>
 	<div class="card">
 		<h3>bot card</h3>
-		<p>
+		<p v-if="status">
 			Bot Name:
 			{{ status.info.username + '#' + status.info.discriminator }} <br />
 			Bot ID: {{ status.info.id }} <br />
