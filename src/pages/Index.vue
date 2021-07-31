@@ -11,7 +11,7 @@
 				</div>
 			</g-link>
 			<p style="text-align: center">
-				Strona w trakcie rewrite-u! Zapraszamy później.
+				Strona w trakcie rewrite-u! Niektóre rzeczy mogą nie działać.
 			</p>
 			<div class="header-buttons">
 				<g-link to="/discord">Discord</g-link>
@@ -54,11 +54,11 @@
 					name="Jakub Mańczak"
 					nickname="jamesen"
 					photo="01"
-					description="Wykonywacz zadań, pisacz kodu, rysownik grafik, zarządca."
-					external="true"
-					steam="true"
-					facebook="true"
-					github="true"
+					description="Przywódca bez jakichkolwiek umiejętności przewodniczych."
+					external="/jamesen-external"
+					steam="/jamesen-steam"
+					facebook="/jamesen-facebook"
+					github="/jamesen-github"
 					discord="j4mesen#1429"
 				/>
 				<Card
@@ -66,27 +66,32 @@
 					tabindex="0"
 					name="Olek Kulka"
 					nickname="KuOlek"
-					description="Reprezentant medialny."
+					photo="02"
+					description="Reprezentant medialny w obliczu braku zainteresowanych mediów."
+					discord="KuOlek#8433"
 				/>
 				<Card
 					id="adam"
 					tabindex="0"
 					name="Adam Cała"
 					nickname="Be Elephant"
-					description=""
+					photo="03"
+					description="Legenda głosi że płonące strzały w powietrzu zwiastują słonia."
 				/>
 				<Card
 					id="mollin"
 					tabindex="0"
 					name="Jakub Mollin"
 					nickname="Mollin"
-					description=""
+					photo="04"
+					description="Kandydat do artykułu pt. 'Śmierć z roześmiania' na Wikipedii."
 				/>
 				<Card
 					id="franek"
 					tabindex="0"
 					name="Franek Cała"
 					nickname="Bavil Gravlax"
+					photo="05"
 					description="Pełnoprawny członek tajemnego społeczeństwa kocyków."
 				/>
 				<Card name="... ?" />

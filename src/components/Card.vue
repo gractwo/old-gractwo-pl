@@ -22,19 +22,23 @@
 					</p>
 				</div>
 				<div class="cardInnerInfoButtons">
-					<g-link to="/" v-if="external">
+					<g-link :to="`${external}`" v-if="external">
 						<i class="fas fa-link" />
 					</g-link>
-					<g-link to="/" v-if="steam">
+					<g-link :to="`${steam}`" v-if="steam">
 						<i class="fab fa-steam" />
 					</g-link>
-					<g-link to="/" v-if="github">
+					<g-link :to="`${github}`" v-if="github">
 						<i class="fab fa-github"></i>
 					</g-link>
-					<g-link to="/" v-if="facebook">
+					<g-link :to="`${facebook}`" v-if="facebook">
 						<i class="fab fa-facebook"></i>
 					</g-link>
-					<g-link to="/" v-if="discord">
+					<g-link
+						to="/"
+						v-if="discord"
+						v-tooltip="`Kliknij by skopiować do schowka!`"
+					>
 						<i class="fab fa-discord" />
 						{{ discord }}
 					</g-link>
@@ -57,6 +61,16 @@ export default {
 		github: String,
 		facebook: String,
 		discord: String,
+	},
+	methods: {
+		copyDiscord: function() {
+			// this.$copyText(discord);
+			this.$toasted.show(`Skopiowano do schowka!`, {
+				duration: 2000,
+				className: 'toastcss',
+				icon: 'check',
+			});
+		},
 	},
 };
 </script>
@@ -89,6 +103,9 @@ export default {
 		.cardInnerInfo {
 			padding: 0.8rem;
 			padding-top: 0.6rem;
+			min-height: 100%;
+			width: 100%;
+			position: relative;
 			.cardInnerInfoTitle {
 				display: flex;
 				flex-direction: row;
@@ -117,9 +134,11 @@ export default {
 			.cardInnerInfoButtons {
 				display: flex;
 				flex-direction: row;
-				justify-content: right;
-				align-items: baseline;
-				margin-top: 0.6rem;
+				justify-content: flex-end;
+				position: absolute;
+				bottom: 0.5rem;
+				right: 0.5rem;
+				// margin-top: 0.6rem;
 				a {
 					color: var(--graytext);
 					text-decoration: inherit;
