@@ -34,14 +34,15 @@
 					<g-link :to="`${facebook}`" v-if="facebook" target="_blank">
 						<i class="fab fa-facebook"></i>
 					</g-link>
-					<g-link
-						to="/"
+					<a
+						href=""
 						v-if="discord"
-						v-tooltip="`Kliknij by skopiować do schowka!`"
+						@click="copyDiscord()"
+						v-tooltip.top-center="`Kliknij by skopiować do schowka!`"
 					>
 						<i class="fab fa-discord" />
 						{{ discord }}
-					</g-link>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -64,8 +65,8 @@ export default {
 	},
 	methods: {
 		copyDiscord: function() {
-			// this.$copyText(discord);
-			this.$toasted.show(`Skopiowano do schowka!`, {
+			this.$copyText(this.discord);
+			this.$toasted.show(`Skopiowano '${this.discord}' do schowka!`, {
 				duration: 2000,
 				className: 'toastcss',
 				icon: 'check',
