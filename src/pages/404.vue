@@ -3,7 +3,7 @@
 		<div class="altnotfound">
 			<g-link to="/" style="background-color:inherit;">
 				<g-image
-					src="~/assets/main-logo-x512.png"
+					src="~/assets/main-logo-x64.png"
 					width="64"
 					style="margin: 0"
 				/>

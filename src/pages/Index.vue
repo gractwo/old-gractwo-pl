@@ -5,7 +5,7 @@
 		</p>
 		<g-link to="/" style="color: inherit; text-decoration: inherit">
 			<header>
-				<g-image src="~/assets/main-logo-x512.png" width="64"></g-image>
+				<g-image src="~/assets/main-logo-x64.png" width="64"></g-image>
 				<h1>Gractwo</h1>
 			</header>
 		</g-link>
