@@ -43,9 +43,9 @@
 			</p>
 		</section>
 		<section>
-			<h2>Spis Moderacji</h2>
+			<h2>Spis Administracji</h2>
 			<p>
-				Ludzie stojący za Gractwem - in progress!
+				Ludzie stojący za Gractwem.
 			</p>
 			<div class="cards">
 				<Card
