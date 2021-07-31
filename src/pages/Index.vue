@@ -70,6 +70,7 @@
 					photo="02"
 					description="Reprezentant medialny w obliczu braku zainteresowanych mediów."
 					steam="/kuolek-steam"
+					facebook="/kuolek-facebook"
 					discord="KuOlek#8433"
 				/>
 				<Card
