@@ -3,10 +3,12 @@
 		<p style="text-align: center">
 			Strona w trakcie rewrite-u! Zapraszamy później.
 		</p>
-		<header>
-			<g-image src="~/assets/main-logo-x512.png" width="64"></g-image>
-			<h1>Gractwo</h1>
-		</header>
+		<g-link to="/" style="color: inherit; text-decoration: inherit">
+			<header>
+				<g-image src="~/assets/main-logo-x512.png" width="64"></g-image>
+				<h1>Gractwo</h1>
+			</header>
+		</g-link>
 		<section>
 			<h2>
 				Witajcie w Gractwie!
