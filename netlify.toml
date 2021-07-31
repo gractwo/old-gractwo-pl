@@ -31,3 +31,20 @@
 [[redirects]]
   from = "/pgtf-theme"
   to = "https://www.youtube.com/watch?v=zjedLeVGcfE"
+
+# PERSONAL REDIRECTS
+[[redirects]]
+  from = "/jamesen-external"
+  to = "https://manczak.net"
+
+[[redirects]]
+  from = "/jamesen-steam"
+  to = "https://steamcommunity.com/id/jakubmanczak/"
+
+[[redirects]]
+  from = "/jamesen-github"
+  to = "https://github.com/jakubmanczak"
+
+[[redirects]]
+  from = "/jamesen-facebook"
+  to = "https://facebook.com/manczakjakub"
