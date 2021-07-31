@@ -13,6 +13,10 @@
 			<p style="text-align: center">
 				Strona w trakcie rewrite-u! Zapraszamy później.
 			</p>
+			<div class="header-buttons">
+				<g-link to="/discord">Discord</g-link>
+				<g-link to="/facebook">Facebook</g-link>
+			</div>
 		</header>
 		<section>
 			<h2>
@@ -20,6 +24,7 @@
 			</h2>
 			<p>
 				Jesteśmy społecznością - grupą ludzi - których kręcą gry. Proste, nie?
+				🎮💖
 			</p>
 		</section>
 		<section>
@@ -47,16 +52,20 @@
 					id="jamesen"
 					tabindex="0"
 					name="Jakub Mańczak"
-					nickname="j4mesen"
-					photo="-"
-					description="Odpowiedzialny za software podtrzymujący Gractwo."
+					nickname="jamesen"
+					photo="01"
+					description="Wykonywacz zadań, pisacz kodu, rysownik grafik, zarządca."
+					external="true"
+					steam="true"
+					facebook="true"
+					github="true"
+					discord="j4mesen#1429"
 				/>
 				<Card
 					id="kuolek"
 					tabindex="0"
 					name="Olek Kulka"
 					nickname="KuOlek"
-					photo="-"
 					description="Reprezentant medialny."
 				/>
 				<Card
@@ -64,7 +73,6 @@
 					tabindex="0"
 					name="Adam Cała"
 					nickname="Be Elephant"
-					photo="-"
 					description=""
 				/>
 				<Card
@@ -72,7 +80,6 @@
 					tabindex="0"
 					name="Jakub Mollin"
 					nickname="Mollin"
-					photo="-"
 					description=""
 				/>
 				<Card
@@ -80,7 +87,6 @@
 					tabindex="0"
 					name="Franek Cała"
 					nickname="Bavil Gravlax"
-					photo="-"
 					description="Pełnoprawny członek tajemnego społeczeństwa kocyków."
 				/>
 				<Card name="... ?" />
@@ -96,8 +102,8 @@
 		<section>
 			<h3>Gractwo 2020-2021</h3>
 			<p>
-				Kod dostępny na
-				<a href="/github" target="_blank">GitHubie</a>.
+				Napisane i hostowane przez <a href="#jamesen">Jakuba Mańczaka</a>. Kod
+				dostępny na <a href="/github" target="_blank">GitHubie</a>.
 			</p>
 		</section>
 	</main>
@@ -134,6 +140,15 @@ main {
 		img {
 			margin-top: 0.25rem;
 			margin-right: 0.5rem;
+		}
+	}
+	.header-buttons {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		a {
+			margin: 0 2rem;
 		}
 	}
 	section {

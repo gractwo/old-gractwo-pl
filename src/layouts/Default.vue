@@ -40,6 +40,7 @@ html {
 		&:hover,
 		&:focus {
 			background-color: var(--light-red);
+			outline: none;
 		}
 	}
 }

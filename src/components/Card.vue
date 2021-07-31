@@ -4,6 +4,12 @@
 		<div class="cardInnerFlex">
 			<div class="cardInnerPhoto">
 				<!-- <img alt="" :src="require(`~/assets/cards/${photo}`)" /> -->
+				<g-image
+					:src="require(`~/assets/cards/${photo}.png`)"
+					:alt="`Zdjęcie ${name}`"
+					v-if="photo"
+					width="128"
+				/>
 			</div>
 			<div class="cardInnerInfo">
 				<div class="cardInnerInfoTitle">
@@ -15,7 +21,24 @@
 						{{ description }}
 					</p>
 				</div>
-				<div class="cardInnerInfoMeta"></div>
+				<div class="cardInnerInfoButtons">
+					<g-link to="/" v-if="external">
+						<i class="fas fa-link" />
+					</g-link>
+					<g-link to="/" v-if="steam">
+						<i class="fab fa-steam" />
+					</g-link>
+					<g-link to="/" v-if="github">
+						<i class="fab fa-github"></i>
+					</g-link>
+					<g-link to="/" v-if="facebook">
+						<i class="fab fa-facebook"></i>
+					</g-link>
+					<g-link to="/" v-if="discord">
+						<i class="fab fa-discord" />
+						{{ discord }}
+					</g-link>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -29,6 +52,11 @@ export default {
 		nickname: String,
 		photo: String,
 		description: String,
+		external: String,
+		steam: String,
+		github: String,
+		facebook: String,
+		discord: String,
 	},
 };
 </script>
@@ -41,6 +69,7 @@ export default {
 	// padding: 1rem;
 	margin: 1rem 0.2rem;
 	width: 49%;
+	height: 8rem;
 	transition-duration: var(--trandur);
 	.cardInnerFlex {
 		display: flex;
@@ -51,13 +80,20 @@ export default {
 			background-color: black;
 			border-top-left-radius: 3px;
 			border-bottom-left-radius: 3px;
+			img {
+				width: 8rem;
+				border-top-left-radius: 3px;
+				border-bottom-left-radius: 3px;
+			}
 		}
 		.cardInnerInfo {
-			padding: 1rem;
+			padding: 0.8rem;
+			padding-top: 0.6rem;
 			.cardInnerInfoTitle {
 				display: flex;
 				flex-direction: row;
 				align-items: baseline;
+				padding-bottom: 0.3rem;
 				h3 {
 					margin-right: 1rem;
 				}
@@ -66,11 +102,36 @@ export default {
 				}
 			}
 			.cardInnerInfoDescription {
-				// font-size: 0.8rem;
+				font-size: 1rem;
 			}
 			.cardInnerInfoMeta {
 				display: flex;
 				flex-direction: row;
+				align-items: baseline;
+				color: var(--graytext);
+				margin-top: 0.4rem;
+				i {
+					margin-right: 0.3rem;
+				}
+			}
+			.cardInnerInfoButtons {
+				display: flex;
+				flex-direction: row;
+				justify-content: right;
+				align-items: baseline;
+				margin-top: 0.6rem;
+				a {
+					color: var(--graytext);
+					text-decoration: inherit;
+					padding: 0.2rem;
+					margin: 0 0.2rem;
+					border-radius: 3px;
+					&:hover,
+					&:focus {
+						background-color: var(--red);
+						color: var(--black);
+					}
+				}
 			}
 		}
 	}
