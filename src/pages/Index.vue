@@ -54,7 +54,7 @@
 					name="Jakub Mańczak"
 					nickname="jamesen"
 					photo="01"
-					description="Przywódca bez jakichkolwiek umiejętności przewodniczych."
+					description="Przywódca bez jakichkolwiek umiejętności przywódczych."
 					external="/jamesen-external"
 					steam="/jamesen-steam"
 					facebook="/jamesen-facebook"

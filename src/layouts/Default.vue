@@ -59,7 +59,7 @@ html {
 .toastcss {
 	background-color: var(--gray) !important;
 	border-left: 4px solid var(--red);
-	// border-bottom: 3px solid;
+	transition-duration: var(--trandur);
 	border-image-slice: 1;
 	border-image-source: linear-gradient(
 		180deg,
