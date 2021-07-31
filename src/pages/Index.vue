@@ -1,14 +1,19 @@
 <template>
 	<main>
-		<p style="text-align: center">
-			Strona w trakcie rewrite-u! Zapraszamy później.
-		</p>
-		<g-link to="/" style="color: inherit; text-decoration: inherit">
-			<header>
-				<g-image src="~/assets/main-logo-x64.png" width="64"></g-image>
-				<h1>Gractwo</h1>
-			</header>
-		</g-link>
+		<header>
+			<g-link
+				to="/"
+				style="color: inherit; text-decoration: inherit;background-color: inherit"
+			>
+				<div style="display:flex;flex-direction:row">
+					<g-image src="~/assets/main-logo-x64.png" width="64"></g-image>
+					<h1>Gractwo</h1>
+				</div>
+			</g-link>
+			<p style="text-align: center">
+				Strona w trakcie rewrite-u! Zapraszamy później.
+			</p>
+		</header>
 		<section>
 			<h2>
 				Witajcie w Gractwie!
@@ -37,6 +42,7 @@
 			<p>
 				Sprawdź jak się ma nasz bot discordowy - in progress!
 			</p>
+			<BotCard />
 		</section>
 		<section>
 			<h2>Spis Moderacji</h2>
@@ -44,7 +50,11 @@
 				Ludzie stojący za Gractwem - in progress!
 			</p>
 			<div class="cards">
-				<!-- <Card id="jamesen" /> -->
+				<Card id="jamesen" name="Jakub Mańczak" photo="~/assets/cards/.png" />
+				<Card id="kuolek" name="Olek Kulka" />
+				<Card id="mollin" name="Jakub Mollin" />
+				<Card id="adam" name="Adam Cała" />
+				<Card id="franek" name="Franek Cała" />
 			</div>
 		</section>
 		<section>
@@ -59,6 +69,7 @@
 
 <script>
 import Card from '~/components/Card.vue';
+import BotCard from '~/components/BotCard.vue';
 
 export default {
 	metaInfo: {
@@ -66,6 +77,7 @@ export default {
 	},
 	components: {
 		Card,
+		BotCard,
 	},
 };
 </script>
@@ -78,7 +90,7 @@ main {
 	padding-right: 24px;
 	header {
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
@@ -90,6 +102,13 @@ main {
 	}
 	section {
 		padding: 2rem 0 4rem;
+		.cards {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+		}
 	}
 	h1 {
 		font-size: 3rem;
