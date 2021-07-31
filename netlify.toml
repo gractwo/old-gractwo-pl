@@ -23,10 +23,3 @@
 [[redirects]]
   from = "/pgtf-theme"
   to = "https://www.youtube.com/watch?v=zjedLeVGcfE"
-
-# catch-all to landing page
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-  force = false
