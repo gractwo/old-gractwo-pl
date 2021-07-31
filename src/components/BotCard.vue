@@ -1,6 +1,19 @@
 <template>
 	<div v-if="status">
 		<div class="card">
+			<div class="titleCard">
+				<img
+					:src="
+						`https://cdn.discordapp.com/avatars/${status.info.id}/${
+							status.info.avatar
+						}.png?size=64`
+					"
+					alt="Gractwo bot current avatar"
+				/>
+				<h3>{{ status.info.username + '#' + status.info.discriminator }}</h3>
+			</div>
+		</div>
+		<div class="card">
 			<h3>bot card</h3>
 			<p>
 				Bot Name:
@@ -20,19 +33,6 @@
 				Bot Status: {{ status.status }} <br />
 				Bot Info: {{ status.info }}
 			</p>
-		</div>
-		<div class="card">
-			<div class="titleCard">
-				<img
-					:src="
-						`https://cdn.discordapp.com/avatars/${status.info.id}/${
-							status.info.avatar
-						}.png?size=64`
-					"
-					alt="Gractwo bot current avatar"
-				/>
-				<h3>{{ status.info.username + '#' + status.info.discriminator }}</h3>
-			</div>
 		</div>
 	</div>
 </template>
