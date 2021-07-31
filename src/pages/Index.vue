@@ -38,20 +38,50 @@
 			</p>
 		</section>
 		<section>
-			<h2>Spis Moderacji + Bot</h2>
+			<h2>Spis Moderacji</h2>
 			<p>
 				Ludzie stojący za Gractwem - in progress!
 			</p>
 			<div class="cards">
-				<Card id="jamesen" name="Jakub Mańczak" nickname="j4mesen" photo="-" />
-				<Card id="kuolek" name="Olek Kulka" nickname="KuOlek" photo="-" />
-				<Card id="adam" name="Adam Cała" nickname="Be Elephant" photo="-" />
-				<Card id="mollin" name="Jakub Mollin" nickname="Mollin" photo="-" />
+				<Card
+					id="jamesen"
+					tabindex="0"
+					name="Jakub Mańczak"
+					nickname="j4mesen"
+					photo="-"
+					description="Odpowiedzialny za software podtrzymujący Gractwo."
+				/>
+				<Card
+					id="kuolek"
+					tabindex="0"
+					name="Olek Kulka"
+					nickname="KuOlek"
+					photo="-"
+					description="Reprezentant medialny."
+				/>
+				<Card
+					id="adam"
+					tabindex="0"
+					name="Adam Cała"
+					nickname="Be Elephant"
+					photo="-"
+					description=""
+				/>
+				<Card
+					id="mollin"
+					tabindex="0"
+					name="Jakub Mollin"
+					nickname="Mollin"
+					photo="-"
+					description=""
+				/>
 				<Card
 					id="franek"
+					tabindex="0"
 					name="Franek Cała"
 					nickname="Bavil Gravlax"
 					photo="-"
+					description="Pełnoprawny członek tajemnego społeczeństwa kocyków."
 				/>
 				<Card name="... ?" />
 			</div>

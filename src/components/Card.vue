@@ -10,9 +10,12 @@
 					<h3>{{ name }}</h3>
 					<p>{{ nickname }}</p>
 				</div>
-				<p style="text-align: justify">
-					{{ description }}
-				</p>
+				<div class="cardInnerInfoDescription">
+					<p style="text-align: left">
+						{{ description }}
+					</p>
+				</div>
+				<div class="cardInnerInfoMeta"></div>
 			</div>
 		</div>
 	</div>
@@ -43,7 +46,7 @@ export default {
 		display: flex;
 		flex-direction: row;
 		.cardInnerPhoto {
-			width: 8rem;
+			min-width: 8rem;
 			height: 8rem;
 			background-color: black;
 			border-top-left-radius: 3px;
@@ -62,12 +65,21 @@ export default {
 					color: var(--graytext);
 				}
 			}
+			.cardInnerInfoDescription {
+				// font-size: 0.8rem;
+			}
+			.cardInnerInfoMeta {
+				display: flex;
+				flex-direction: row;
+			}
 		}
 	}
 	&:hover,
 	&:focus {
+		// background-color: var(--gray);
 		border: 1px solid transparent;
 		box-shadow: 0 0 10px black;
+		outline: none;
 	}
 }
 </style>
