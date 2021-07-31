@@ -14,8 +14,8 @@
 				Strona w trakcie rewrite-u! Niektóre rzeczy mogą nie działać.
 			</p>
 			<div class="header-buttons">
-				<g-link to="/discord">Discord</g-link>
-				<g-link to="/facebook">Facebook</g-link>
+				<g-link to="/discord" target="_blank">Discord</g-link>
+				<g-link to="/facebook" target="_blank">Facebook</g-link>
 			</div>
 		</header>
 		<section>
