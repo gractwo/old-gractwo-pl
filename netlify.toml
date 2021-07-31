@@ -1,7 +1,19 @@
 [[redirects]]
-  from = ["/discord","/dsc","/dc"]
+  from = "/discord"
   to = "https://discord.gg/NBXq95C"
 
 [[redirects]]
-  from = ["/facebook","/fb"]
+  from = "/dsc"
+  to = "https://discord.gg/NBXq95C"
+
+[[redirects]]
+  from = "/dc"
+  to = "https://discord.gg/NBXq95C"
+
+[[redirects]]
+  from = "/facebook"
+  to = "https://facebook.com/groups/gractwo"
+
+[[redirects]]
+  from = "/fb"
   to = "https://facebook.com/groups/gractwo"
