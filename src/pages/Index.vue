@@ -56,8 +56,9 @@
 					photo="01"
 					description="Przywódca bez jakichkolwiek umiejętności przywódczych."
 					external="/jamesen-external"
+					externalTooltip="manczak.net"
 					steam="/jamesen-steam"
-					facebook="/jamesen-facebook"
+					twitter="/jamesen-twitter"
 					github="/jamesen-github"
 					discord="j4mesen#1429"
 				/>
@@ -68,15 +69,18 @@
 					nickname="KuOlek"
 					photo="02"
 					description="Reprezentant medialny w obliczu braku zainteresowanych mediów."
+					steam="/kuolek-steam"
 					discord="KuOlek#8433"
 				/>
 				<Card
 					id="adam"
 					tabindex="0"
 					name="Adam Cała"
-					nickname="Be Elephant"
+					nickname="BeElephant"
 					photo="03"
 					description="Legenda głosi że płonące strzały w powietrzu zwiastują słonia."
+					steam="/beelephant-steam"
+					discord="BeElephant#5946"
 				/>
 				<Card
 					id="mollin"
@@ -85,6 +89,11 @@
 					nickname="Mollin"
 					photo="04"
 					description="Kandydat do artykułu pt. 'Śmierć z roześmiania' na Wikipedii."
+					external="/mollin-anilist"
+					externalTooltip="AniList"
+					steam="/mollin-steam"
+					twitter="/mollin-twitter"
+					discord="Mollin#6591"
 				/>
 				<Card
 					id="franek"
@@ -93,6 +102,8 @@
 					nickname="Bavil Gravlax"
 					photo="05"
 					description="Pełnoprawny członek tajemnego społeczeństwa kocyków."
+					steam="/bavilgravlax-steam"
+					discord="Bavil Gravlax#9320"
 				/>
 				<!-- <Card name="... ?" /> -->
 			</div>
