@@ -1,3 +1,4 @@
+# SOCIALS REDIRECTS
 [[redirects]]
   from = "/discord"
   to = "https://discord.gg/NBXq95C"
@@ -17,3 +18,8 @@
 [[redirects]]
   from = "/fb"
   to = "https://facebook.com/groups/gractwo"
+
+# 'funny' REDIRECTS
+[[redirects]]
+  from = "/pgtf-theme"
+  to = "https://www.youtube.com/watch?v=zjedLeVGcfE"
