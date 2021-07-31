@@ -38,13 +38,6 @@
 			</p>
 		</section>
 		<section>
-			<h2>Status Bota Discordowego</h2>
-			<p>
-				Sprawdź jak się ma nasz bot discordowy - in progress!
-			</p>
-			<BotCard />
-		</section>
-		<section>
 			<h2>Spis Moderacji</h2>
 			<p>
 				Ludzie stojący za Gractwem - in progress!
@@ -56,6 +49,13 @@
 				<Card id="adam" name="Adam Cała" />
 				<Card id="franek" name="Franek Cała" />
 			</div>
+		</section>
+		<section>
+			<h2>Status Bota Discordowego</h2>
+			<p>
+				Sprawdź jak się ma nasz bot discordowy - in progress!
+			</p>
+			<BotCard />
 		</section>
 		<section>
 			<h3>Gractwo 2020-2021</h3>

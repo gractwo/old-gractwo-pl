@@ -25,7 +25,7 @@ export default {
 	border-radius: 4px;
 	padding: 1rem;
 	margin: 1rem 0.2rem;
-	width: 8rem;
+	width: 45%;
 	transition-duration: var(--trandur);
 	&:hover,
 	&:focus {
