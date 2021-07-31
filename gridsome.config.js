@@ -8,6 +8,6 @@ module.exports = {
 	siteName: `Gractwo`,
 	siteDescription: `Jesteśmy społecznością - grupą ludzi - których kręcą gry. Proste, nie?`,
 	siteUrl: `https://gractwo.pl`,
-	titleTemplate: `Gractwo: %s`,
+	titleTemplate: `Gractwo`,
 	plugins: [],
 };
