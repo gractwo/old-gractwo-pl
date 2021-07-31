@@ -32,8 +32,12 @@ export default {
 			status: {},
 		};
 	},
-	mounted() {
-		this.fetchData();
+	async mounted() {
+		try {
+			this.fetchData();
+		} catch (error) {
+			console.log(error);
+		}
 	},
 	methods: {
 		fetchData: function() {
