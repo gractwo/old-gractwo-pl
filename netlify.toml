@@ -46,5 +46,33 @@
   to = "https://github.com/jakubmanczak"
 
 [[redirects]]
-  from = "/jamesen-facebook"
-  to = "https://facebook.com/manczakjakub"
+  from = "/jamesen-twitter"
+  to = "https://twitter.com/j4kubmanczak"
+
+[[redirects]]
+  from = "/kuolek-steam"
+  to = "https://steamcommunity.com/profiles/76561198381997060"
+
+[[redirects]]
+  from = "/kuolek-facebook"
+  to = "https://www.facebook.com/olek.kulka.1"
+
+[[redirects]]
+  from = "/beelephant-steam"
+  to = "https://steamcommunity.com/profiles/76561198309722571"
+
+[[redirects]]
+  from = "/mollin-anilist"
+  to = "https://anilist.co/user/Mollin/"
+
+[[redirects]]
+  from = "/mollin-steam"
+  to = "https://steamcommunity.com/profiles/76561198309722571"
+
+[[redirects]]
+  from = "/mollin-twitter"
+  to = "https://twitter.com/mollin_j/"
+
+[[redirects]]
+  from = "/bavilgravlax-steam"
+  to = "https://www.facebook.com/olek.kulka.1"
