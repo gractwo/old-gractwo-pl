@@ -1,5 +1,5 @@
 <template>
-	<div v-if="status">
+	<div class="cards" v-if="status">
 		<Card
 			tabindex="0"
 			:name="
@@ -60,37 +60,12 @@ export default {
 };
 </script>
 
-//
 <style lang="scss" scoped>
-// .card {
-// 	display: inline-block;
-// 	border: 1px solid var(--gray);
-// 	border-radius: 4px;
-// 	padding: 1rem;
-// 	margin: 1rem 0.2rem;
-// 	width: 100%;
-// 	transition-duration: var(--trandur);
-// 	.cardInner {
-// 		display: flex;
-// 		flex-direction: row;
-// 		.cardTitle {
-// 			display: flex;
-// 			align-items: baseline;
-// 			.botOnlineStatus {
-// 				width: 0.5rem;
-// 				height: 0.5rem;
-// 				background-color: var(--gray);
-// 				margin-left: 0.5rem;
-// 				border-radius: 50%;
-// 				margin-bottom: 0.2rem;
-// 			}
-// 		}
-// 	}
-// 	&:hover,
-// 	&:focus {
-// 		border: 1px solid transparent;
-// 		box-shadow: 0 0 10px black;
-// 	}
-// }
-//
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
 </style>

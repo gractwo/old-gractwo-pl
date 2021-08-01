@@ -203,4 +203,20 @@ export default {
 		outline: none;
 	}
 }
+@media only screen and (max-width: 850px) {
+	.card {
+		width: 200%;
+		h3 {
+			font-size: 1rem;
+		}
+	}
+}
+@media only screen and (max-width: 460px) {
+	.cardInnerPhoto {
+		display: none;
+	}
+	.cardInnerFlex {
+		min-height: 8rem;
+	}
+}
 </style>
