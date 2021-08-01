@@ -121,7 +121,7 @@
 			<h3>Gractwo 2020-2021</h3>
 			<p>
 				Napisane i hostowane przez
-				<g-link to="/jamesen-external">Jakuba Mańczaka</g-link>. Kod dostępny na
+				<g-link to="/jamesen-external" target="_blank">Jakuba Mańczaka</g-link>. Kod dostępny na
 				<a href="/github" target="_blank">GitHubie</a>.
 			</p>
 		</section>
