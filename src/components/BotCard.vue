@@ -4,34 +4,74 @@
 			<div class="titleCard">
 				<img
 					:src="
-						`https://cdn.discordapp.com/avatars/${status.info.id}/${
-							status.info.avatar
+						`https://cdn.discordapp.com/avatars/${status.mainInfo.id}/${
+							status.mainInfo.avatar
 						}.png?size=64`
 					"
 					alt="Gractwo bot current avatar"
 				/>
-				<h3>{{ status.info.username + '#' + status.info.discriminator }}</h3>
+				<h3>
+					{{ status.mainInfo.username + '#' + status.mainInfo.discriminator }}
+				</h3>
+			</div>
+		</div>
+		<div class="card">
+			<div class="titleCard">
+				<img
+					:src="
+						`https://cdn.discordapp.com/avatars/${status.canaryInfo.id}/${
+							status.canaryInfo.avatar
+						}.png?size=64`
+					"
+					alt="Gractwo Canary bot current avatar"
+				/>
+				<h3>
+					{{
+						status.canaryInfo.username + '#' + status.canaryInfo.discriminator
+					}}
+				</h3>
 			</div>
 		</div>
 		<div class="card">
 			<h3>bot card</h3>
 			<p>
 				Bot Name:
-				{{ status.info.username + '#' + status.info.discriminator }} <br />
-				Bot ID: {{ status.info.id }} <br />
+				{{ status.mainInfo.username + '#' + status.mainInfo.discriminator }}
+				<br />
+				Bot ID: {{ status.mainInfo.id }} <br />
 				Bot Avatar:
 				<img
 					:src="
-						`https://cdn.discordapp.com/avatars/${status.info.id}/${
-							status.info.avatar
+						`https://cdn.discordapp.com/avatars/${status.mainInfo.id}/${
+							status.mainInfo.avatar
 						}.png?size=64`
 					"
 					alt=""
 					v-if="status"
 				/>
 				<br />
-				Bot Status: {{ status.status }} <br />
-				Bot Info: {{ status.info }}
+				Bot Info: {{ status.mainInfo }}
+			</p>
+		</div>
+		<div class="card">
+			<h3>sub bot card</h3>
+			<p>
+				Bot Name:
+				{{ status.canaryInfo.username + '#' + status.canaryInfo.discriminator }}
+				<br />
+				Bot ID: {{ status.canaryInfo.id }} <br />
+				Bot Avatar:
+				<img
+					:src="
+						`https://cdn.discordapp.com/avatars/${status.canaryInfo.id}/${
+							status.canaryInfo.avatar
+						}.png?size=64`
+					"
+					alt=""
+					v-if="status"
+				/>
+				<br />
+				Bot Info: {{ status.canaryInfo }}
 			</p>
 		</div>
 	</div>
