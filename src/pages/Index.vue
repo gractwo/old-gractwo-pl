@@ -11,7 +11,7 @@
 				</div>
 			</g-link>
 			<p style="text-align: center">
-				Strona w trakcie rewrite-u! Niektóre rzeczy mogą nie działać.
+				<!-- Strona w trakcie rewrite-u! Niektóre rzeczy mogą nie działać. -->
 			</p>
 			<div class="header-buttons">
 				<g-link to="/discord" target="_blank">Discord</g-link>
@@ -112,15 +112,17 @@
 		<section>
 			<h2>Status Bota Discordowego</h2>
 			<p>
-				Sprawdź jak się ma nasz bot discordowy - in progress!
+				Sprawdź jak się ma nasz bot discordowy - w trakcie prac. Nie
+				odzwierciedla stanu rzeczy.
 			</p>
 			<BotCard />
 		</section>
 		<section>
 			<h3>Gractwo 2020-2021</h3>
 			<p>
-				Napisane i hostowane przez <a href="#jamesen">Jakuba Mańczaka</a>. Kod
-				dostępny na <a href="/github" target="_blank">GitHubie</a>.
+				Napisane i hostowane przez
+				<g-link to="/jamesen-external">Jakuba Mańczaka</g-link>. Kod dostępny na
+				<a href="/github" target="_blank">GitHubie</a>.
 			</p>
 		</section>
 	</main>

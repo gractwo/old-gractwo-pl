@@ -23,6 +23,7 @@ query {
 	--red: #fb636b;
 	--light-red: rgba(251, 99, 107, 0.25);
 	--blue: #61f2ea;
+	--green: #3ded97;
 	--radius: 6px;
 	--trandur: 0.1s;
 }

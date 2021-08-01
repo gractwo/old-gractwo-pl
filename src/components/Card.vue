@@ -10,6 +10,12 @@
 					v-if="photo"
 					width="128"
 				/>
+				<img
+					:src="`${photoDyn}`"
+					alt="Dynamic photo"
+					v-if="photoDyn"
+					style="width: 128px"
+				/>
 			</div>
 			<div class="cardInnerInfo">
 				<div class="cardInnerInfoTitle">
@@ -51,6 +57,16 @@
 						<i class="fab fa-discord" />
 						{{ discord }}
 					</a>
+					<div
+						class="cardOnlineIndicator"
+						v-tooltip="`Offline.`"
+						v-if="onlineIndicator == 0"
+					/>
+					<div
+						class="cardOnlineIndicator isOnline"
+						v-tooltip="`Online`"
+						v-if="onlineIndicator == 1"
+					/>
 				</div>
 			</div>
 		</div>
@@ -64,6 +80,7 @@ export default {
 		name: String,
 		nickname: String,
 		photo: String,
+		photoDyn: String,
 		description: String,
 		external: String,
 		externalTooltip: String,
@@ -72,6 +89,7 @@ export default {
 		twitter: String,
 		facebook: String,
 		discord: String,
+		onlineIndicator: Number,
 	},
 	methods: {
 		copyDiscord: function() {
@@ -160,6 +178,18 @@ export default {
 					&:focus {
 						background-color: var(--red);
 						color: var(--black);
+					}
+				}
+				.cardOnlineIndicator {
+					background-color: var(--graytext);
+					width: 0.5rem;
+					height: 0.5rem;
+					// margin: 0.5rem;
+					// background-color: var(--graytext);
+					border-radius: 50%;
+					align-self: center;
+					&.isOnline {
+						background-color: var(--green);
 					}
 				}
 			}
