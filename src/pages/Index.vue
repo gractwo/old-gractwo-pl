@@ -1,10 +1,7 @@
 <template>
 	<main>
 		<header>
-			<g-link
-				to="/"
-				style="color: inherit; text-decoration: inherit;background-color: inherit"
-			>
+			<g-link to="/" class="logolink">
 				<div style="display:flex;flex-direction:row">
 					<g-image src="~/assets/main-logo-x64.png" width="64"></g-image>
 					<h1>Gractwo</h1>
@@ -14,8 +11,19 @@
 				<!-- Strona w trakcie rewrite-u! Niektóre rzeczy mogą nie działać. -->
 			</p>
 			<div class="header-buttons">
-				<g-link to="/discord" target="_blank">Discord</g-link>
-				<g-link to="/facebook" target="_blank">Facebook</g-link>
+				<g-link to="/discord" target="_blank">
+					<i class="fab fa-discord"></i>
+					Discord
+					<!-- <i class="fab fa-discord"></i> -->
+				</g-link>
+				<g-link to="/github" target="_blank">
+					<i class="fab fa-github"></i>
+				</g-link>
+				<g-link to="/facebook" target="_blank">
+					<i class="fab fa-facebook"></i>
+					Facebook
+					<!-- <i class="fab fa-facebook"></i> -->
+				</g-link>
 			</div>
 		</header>
 		<section>
@@ -160,13 +168,44 @@ main {
 			margin-right: 0.5rem;
 		}
 	}
+	.logolink {
+		color: inherit;
+		text-decoration: inherit;
+		padding: 0 0.5rem;
+		margin-bottom: 0.5rem;
+		border: 2px solid transparent;
+		border-radius: 4px;
+		&:hover,
+		&:focus {
+			background-color: var(--gray);
+			border: 2px solid var(--graytext);
+		}
+	}
 	.header-buttons {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
 		a {
-			margin: 0 2rem;
+			background-color: transparent;
+			color: var(--graytext);
+			text-decoration: none;
+			padding: 0.3rem 0.7rem;
+			margin: 0;
+			transition-duration: 100ms;
+			border-radius: 0px;
+			border: 2px solid transparent;
+			&:hover,
+			&:focus {
+				// background-color: var(--red);
+				// color: var(--black);
+				border-bottom: 2px solid var(--red);
+			}
+			&:active {
+				color: var(--black);
+				background-color: var(--red);
+				border-radius: 4px;
+			}
 		}
 	}
 	section {
