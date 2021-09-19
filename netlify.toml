@@ -27,6 +27,18 @@
   from = "/gh"
   to = "https://github.com/gractwo"
 
+[[redirects]]
+  from = "/youtube"
+  to = "https://youtube.com/channel/UCM5O0ltiO_ZigZiP-Wa28Ew"
+
+[[redirects]]
+  from = "/yt"
+  to = "https://youtube.com/channel/UCM5O0ltiO_ZigZiP-Wa28Ew"
+
+[[redirects]]
+  from = "/twitter"
+  to = "https://twitter.com/gractwo"
+
 # 'funny' REDIRECTS
 [[redirects]]
   from = "/pgtf-theme"

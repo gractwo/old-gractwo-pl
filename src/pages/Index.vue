@@ -19,6 +19,12 @@
 				<g-link to="/github" target="_blank">
 					<i class="fab fa-github"></i>
 				</g-link>
+				<g-link to="/youtube" target="_blank">
+					<i class="fab fa-youtube"></i>
+				</g-link>
+				<g-link to="/twitter" target="_blank">
+					<i class="fab fa-twitter"></i>
+				</g-link>
 				<g-link to="/facebook" target="_blank">
 					<i class="fab fa-facebook"></i>
 					Facebook
